@@ -2,7 +2,7 @@ import org.jetbrains.compose.compose
 
 plugins {
     kotlin("multiplatform") version "1.5.31"
-    id("org.jetbrains.compose") version "1.0.0-rc5"
+    id("org.jetbrains.compose") version "1.0.0"
 }
 
 group = "me.hodgdon"
@@ -11,7 +11,6 @@ version = "1.0"
 repositories {
     google()
     mavenCentral()
-    maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
 }
 
 kotlin {
